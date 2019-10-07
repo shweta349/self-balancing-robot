@@ -1,0 +1,18 @@
+Dev - 09/01/16
+* changed scl to run at 400khz for faster mpu readings
+* changed speed period formula to (y=-0.017x+10.5)
+* changed timer1 implementation to use arduino constants instead of lib - runs 33khz
+* added prints with tag functionality
+* added runEvery macro to simplify debug information
+* changed all the debug information to use the new macro
+
+Dev - 08/01/16
+* removed period calculation out of the callback function, was taking too long and stalling the program
+* changed the modules function to calculate acceleration instead of velocity
+* changed the callback function to account for 2 independent motor velocities
+* remove va_args from module functions - was not working properly
+
+Dev - 07/01/16
+* added basic balancing module without pid logic - test purposes
+* added printf support - sick of Serial.println shit
+* added multi-module support

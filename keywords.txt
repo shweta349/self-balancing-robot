@@ -1,38 +1,34 @@
 #######################################
-# Syntax Coloring Map For I2Cdev
+# Syntax Coloring Map For PID Library
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-I2Cdev	KEYWORD1
+
+PID	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-readBit	KEYWORD2
-readBitW	KEYWORD2
-readBits	KEYWORD2
-readBitsW	KEYWORD2
-readByte	KEYWORD2
-readBytes	KEYWORD2
-readWord	KEYWORD2
-readWords	KEYWORD2
-writeBit	KEYWORD2
-writeBitW	KEYWORD2
-writeBits	KEYWORD2
-writeBitsW	KEYWORD2
-writeByte	KEYWORD2
-writeBytes	KEYWORD2
-writeWord	KEYWORD2
-writeWords	KEYWORD2
-
-#######################################
-# Instances (KEYWORD2)
-#######################################
+SetMode	KEYWORD2
+Compute	KEYWORD2
+SetOutputLimits	KEYWORD2
+SetTunings	KEYWORD2
+SetControllerDirection	KEYWORD2
+SetSampleTime	KEYWORD2
+GetKp	KEYWORD2
+GetKi	KEYWORD2
+GetKd	KEYWORD2
+GetMode	KEYWORD2
+GetDirection	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
+AUTOMATIC	LITERAL1
+MANUAL	LITERAL1
+DIRECT	LITERAL1
+REVERSE	LITERAL1
